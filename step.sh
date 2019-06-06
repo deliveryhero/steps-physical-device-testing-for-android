@@ -7,7 +7,7 @@ THIS_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 tmp_gopath_dir="$(mktemp -d)"
 
-go_package_name="github.com/bitrise-steplib/steps-virtual-device-testing-for-android"
+go_package_name="github.com/deliveryhero/steps-physical-device-testing-for-android"
 full_package_path="${tmp_gopath_dir}/src/${go_package_name}"
 mkdir -p "${full_package_path}"
 

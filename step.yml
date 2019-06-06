@@ -1,12 +1,12 @@
 title: "[BETA] Virtual Device Testing for Android"
-summary: Run Android UI tests on virtual devices
+summary: Run Android UI tests on physical devices
 description: |-
   Run Android UI tests on virtual devices. Available test types are instrumentation, robo, gameloop.
   The minimal setup of this step would be to select test type. If you selected instrumentation, don't forget to set __Test APK path__
   under the __Instrumentation Test__ group as well.
-website: https://github.com/bitrise-steplib/steps-virtual-device-testing-for-android
-source_code_url: https://github.com/bitrise-steplib/steps-virtual-device-testing-for-android
-support_url: https://github.com/bitrise-steplib/steps-virtual-device-testing-for-android/issues
+website: https://github.com/deliveryhero/steps-physical-device-testing-for-android
+source_code_url: https://github.com/deliveryhero/steps-physical-device-testing-for-android
+support_url: https://github.com/deliveryhero/steps-physical-device-testing-for-android/issues
 host_os_tags:
   - ubuntu
 project_type_tags:
@@ -27,7 +27,7 @@ deps:
     bin_name: go
 toolkit:
   go:
-    package_name: github.com/bitrise-steplib/steps-virtual-device-testing-for-android
+    package_name: github.com/deliveryhero/steps-physical-device-testing-for-android
 inputs:
   - apk_path: "$BITRISE_APK_PATH"
     opts:
